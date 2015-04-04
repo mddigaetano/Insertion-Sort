@@ -8,7 +8,10 @@
 int main(int argc, char** argv) {
     int i, j, num, v[N];
     
-    for(i=0; i<N; i++){
+    printf("Inserire un numero in posizione 0: ");
+    scanf("%d",v[0]);
+    
+    for(i=1; i<N; i++){
         printf("Inserire un numero in posizione %d: ",i);
         scanf("%d", &num);
         
